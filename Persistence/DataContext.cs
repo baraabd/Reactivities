@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,5 +12,7 @@ namespace Persistence
         }
 
         public DbSet<Activity> Activities { get; set; }
+
+        
     }
 }
